@@ -1,6 +1,14 @@
+# General
 .env
 __pycache__/
 *.pyc
+
+# Node.js
 node_modules/
+
+# Python
 venv/
+*.sqlite3
+
+# VS Code
 .vscode/
