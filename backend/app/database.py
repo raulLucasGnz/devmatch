@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 #Carga variables de .env
-load_dotenv()
+load_dotenv(dotenv_path="backend/.env")
 #URL conexion a la BDD
 DATABASE_URL = os.getenv("DATABASE_URL")
 #Motor de SQLAlchemy

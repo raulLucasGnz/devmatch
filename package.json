@@ -1,0 +1,15 @@
+{
+  "name": "devmatch",
+  "version": "1.0.0",
+  "description": "🚧 **Proyecto en desarrollo** — Este repositorio forma parte de un proyecto personal en el que estoy trabajando activamente como parte de mi portfolio para acceder a un internship de desarrollo web.",
+  "main": "index.js",
+"scripts": {
+  "dev": "uvicorn main:app --reload"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
